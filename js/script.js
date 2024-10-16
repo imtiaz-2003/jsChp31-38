@@ -188,12 +188,10 @@ document.getElementById("year").innerHTML = year;
 
 // clear input function 
 
-
 // document.getElementById("clr").onclick = function(){
 //     alert("input clr")
 //     document.getElementById("input").innerHTML = " ";
 // }
-
 
 // clear functions
 
