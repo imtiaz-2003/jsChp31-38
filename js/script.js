@@ -181,19 +181,16 @@ function calculateTotalBtn() {
 
 
 
-// footer current year -------------
+// footer current year ----------
 let now = new Date()
 let year = now.getFullYear();
 document.getElementById("year").innerHTML = year;
 
-// clear input function 
-
+// clear input function
 // document.getElementById("clr").onclick = function(){
 //     alert("input clr")
 //     document.getElementById("input").innerHTML = " ";
 // }
-
-// clear functions
 
 document.getElementById("ClearResult").onclick = function(){
     document.getElementById("output").innerHTML = " ";
